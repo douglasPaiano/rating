@@ -1,0 +1,11 @@
+:root{
+    --primary-color: hsl(25, 97%, 53%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-light-gray: hsl(217, 12%, 63%); 
+    --neutral-medium-gray: hsl(216, 12%, 30%);
+    --neutral-dark-blue: hsl(213, 19%, 18%);
+    --neutral-very-dark-blue: hsl(216, 12%, 8%);
+
+    --font-primary:'Overpass', sans-serif;
+}
+

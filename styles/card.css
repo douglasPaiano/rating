@@ -1,0 +1,107 @@
+body{
+    background-color: var(--neutral-very-dark-blue);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--neutral-dark-blue);
+    border-radius: 10px;
+    background-color: var(--neutral-dark-blue);
+    color: var(--neutral-white);
+    font-family: var(--font-primary);
+    padding: 15px;
+    margin: 5% 5%;
+    row-gap: 15px;
+}
+.star__img{
+    max-width: 16px;
+    max-height: 16px;
+    border: 1px solid var(--neutral-medium-gray);
+    border-radius: 100%;
+    background-color: var(--neutral-medium-gray);
+    padding: 10px;
+}
+.rating__title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.rating__paragraph{
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--neutral-medium-gray);
+}
+.rating__button{
+    display: flex;
+    justify-content: space-between;
+}
+.button__single{
+    text-decoration: none;
+    border: 1px solid var(--neutral-medium-gray);
+    border-radius: 200%;
+    background-color: var(--neutral-medium-gray);
+    padding: 10px 15px;
+}
+.button__single:hover{
+    background-color: var(--primary-color);
+    color: var(--neutral-white);
+}
+.button__single:focus{
+    color: var(--neutral-white);
+    background-color: var(--neutral-light-gray);
+}
+.rating__submit{
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.rating__submit:hover{
+    background-color: var(--neutral-white);
+    color: var(--primary-color);
+    border-color: var(--neutral-white);
+}
+.star{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.star__rating{
+    border: 1px solid var(--neutral-medium-gray);
+    border-radius: 20px;
+    background-color: var(--neutral-medium-gray);
+    color: var(--primary-color);
+    padding: 3px 7px;
+}
+.star__thanks{
+    font-size: 20px;    
+    font-weight: 700;
+}
+.star__paragraph{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--neutral-medium-gray);
+    line-height: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--neutral-dark-blue);
+        border-radius: 10px;
+        background-color: var(--neutral-dark-blue);
+        color: var(--neutral-white);
+        font-family: var(--font-primary);
+        padding: 35px;
+        margin: 20% 35%;
+        row-gap: 25px;
+    } 
+    .star__{
+        display: none;        
+    }
+      
+}
